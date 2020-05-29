@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+body{
+    font-family: 'Courier Prime', monospace;
+}
+.menu{
+    width: 100%;
+    max-width: 991px;
+    margin: 0 auto;
+}
+/*Menu*/
+.nav {
+    justify-content: center!important;
+}
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+hr {
+  width: 803px;
+}
+
+/*submeu*/
+.nav-link {
+    color: #000!important;
+}
+
+@media all and (max-width: 650px) { 
+    
+    .logo {
+        width: 70%;
+    }
+    hr {
+        width: 500px;
+      }
+      
+ }
+
+
+ @media all and (max-width: 516px) { 
+
+    hr {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 400px;
+    }
+  }
