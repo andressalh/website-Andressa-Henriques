@@ -24,7 +24,7 @@ function Header() {
                 <NavLink href="#portifolio">Portfolio</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#contact">Contato</NavLink>
+                <NavLink href="#contato">Contato</NavLink>
             </NavItem>
             </Nav>
             <hr/>

@@ -19,7 +19,7 @@ function Portfolio() {
     return (
         <div className="portifolio" id="portifolio"> 
         
-          <h2>Últimos Trabalhos</h2> 
+          <h2>Últimos Projetos</h2> 
           <Hr/>
           <div className="row"> 
               <Card >

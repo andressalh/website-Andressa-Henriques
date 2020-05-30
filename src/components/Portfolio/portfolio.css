@@ -9,10 +9,27 @@
 .card {
     border: none;
     text-align: center;
-    width: 18rem;
+    width: 18rem;  
+    background: #fff!important;
+    opacity: 1;
 }
+
+
+
+.card a:hover {
+    cursor: crosshair;
+    cursor: url(./img/more.png) 40 40, crosshair;
+    color: #000;
+}
+
+.card:hover {
+    opacity: 0.5;
+}
+
+
 .card:last-child {
     margin-right: 0;
+    
 }
 
 .card-title {

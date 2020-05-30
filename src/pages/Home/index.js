@@ -4,7 +4,6 @@ import './home.css';
 import Portfolio from '../../components/Portfolio/portfolio.js';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Title from '../../components/Hr/hr';
 import Hr from '../../components/Hr/hr';
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
         
       </div>
       <Portfolio/>
-      <div className="contact" id="contact"> 
+      <div className="contact" id="contato"> 
       <h2>Contato</h2>
       <Hr/>
       <p>andressalhenriques@gmail.com</p>
