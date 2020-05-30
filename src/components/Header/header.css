@@ -1,0 +1,38 @@
+/*Menu*/
+.nav {
+    justify-content: center!important;
+}
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+hr {
+  width: 803px;
+}
+
+/*submeu*/
+.nav-link {
+    color: #000!important;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 650px) { 
+    
+    .logo {
+        width: 70%;
+    }
+    hr {
+        width: 500px;
+      }
+      
+ }
+
+
+ @media all and (max-width: 516px) { 
+
+    hr {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 400px;
+    }
+  }

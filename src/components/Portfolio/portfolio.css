@@ -1,0 +1,33 @@
+/*SECTION PORTFOLIO*/
+.row {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.card {
+    border: none;
+    text-align: center;
+    width: 18rem;
+}
+.card:last-child {
+    margin-right: 0;
+}
+.portifolio h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+.card-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+p.card-text {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-transform: lowercase;
+    color: #424242;
+}
+
