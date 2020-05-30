@@ -2,7 +2,7 @@ import React from 'react';
 import './hr.css';
 
 
-function Hr() {
+function Hr(props) {
 
   return (
     

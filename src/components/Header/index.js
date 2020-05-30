@@ -18,13 +18,13 @@ function Header() {
             <hr/>
             <Nav className="navbar navbar-expand-lg ">
             <NavItem>
-                <NavLink href="#">Sobre</NavLink>
+                <NavLink href="#sobre">Sobre</NavLink>
             </NavItem>
             <NavItem>
                 <NavLink href="#portifolio">Portfolio</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#">Contato</NavLink>
+                <NavLink href="#contact">Contato</NavLink>
             </NavItem>
             </Nav>
             <hr/>

@@ -18,8 +18,9 @@ function Portfolio() {
 
     return (
         <div className="portifolio" id="portifolio"> 
-        <h2>Últimos Trabalhos</h2>
-        <Hr/>
+        
+          <h2>Últimos Trabalhos</h2> 
+          <Hr/>
           <div className="row"> 
               <Card >
                 <a rel="noopener noreferrer" target="_blank" href="http://airbnbcopy.andressahenriques.com/" className="text-warning stretched-link"> </a>
