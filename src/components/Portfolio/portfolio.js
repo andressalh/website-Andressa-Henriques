@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './portfolio.css';
 import airbnb from './img/airbnb.png'; 
 import leads from './img/show-me-the-leads.png'; 
@@ -32,8 +32,8 @@ export default function Portfolio() {
               <div className="divImg">
                 <CardImg variant="top" src={pokedex} />
                   <div className="icons">
-                  <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/pokedex"><img src="https://img.icons8.com/clouds/100/000000/github.png"/></NavLink>
-                  <NavLink id="LogoWebsite" target="_blank" href="http://pokedex.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"/></NavLink>
+                  <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/pokedex"><img src="https://img.icons8.com/clouds/100/000000/github.png" alt="iconGit"/></NavLink>
+                  <NavLink id="LogoWebsite" target="_blank" href="http://pokedex.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png" alt="iconWebSite" /></NavLink>
                 </div>          
               </div>
               <CardBody className="cardBodyPortfolio">
@@ -48,8 +48,8 @@ export default function Portfolio() {
               <div className="divImg">
                 <CardImg variant="top" src={airbnb} />
                   <div className="icons">
-                  <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/airbnb-GamaAcademy"><img src="https://img.icons8.com/clouds/100/000000/github.png"/></NavLink>
-                  <NavLink id="LogoWebsite" target="_blank" href="http://airbnbcopy.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"/></NavLink>
+                  <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/airbnb-GamaAcademy"><img src="https://img.icons8.com/clouds/100/000000/github.png" alt="iconGit"/></NavLink>
+                  <NavLink id="LogoWebsite" target="_blank" href="http://airbnbcopy.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
                 </div>          
               </div>
               <CardBody className="cardBodyPortfolio">
@@ -64,8 +64,8 @@ export default function Portfolio() {
               <div className="divImg">
                 <CardImg variant="top" src={leads} />
                     <div className="icons">
-                    <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/fuscao-preto"><img src="https://img.icons8.com/clouds/100/000000/github.png"/></NavLink>
-                    <NavLink id="LogoWebsite" target="_blank" href="http://oneline.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"/></NavLink>
+                    <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/fuscao-preto"><img src="https://img.icons8.com/clouds/100/000000/github.png" alt="iconGit"/></NavLink>
+                    <NavLink id="LogoWebsite" target="_blank" href="http://oneline.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
                   </div>  
               </div>
               <CardBody>
@@ -80,7 +80,7 @@ export default function Portfolio() {
               <div className="divImg">
                 <CardImg variant="top" src={quartzo} />
                     <div className="icons">
-                    <NavLink id="LogoWebsite" target="_blank" href="https://www.quartzorganics.com/about/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"/></NavLink>
+                    <NavLink id="LogoWebsite" target="_blank" href="https://www.quartzorganics.com/about/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
                   </div>  
               </div>
                 <CardBody>
@@ -95,7 +95,7 @@ export default function Portfolio() {
                 <div className="divImg">  
                   <CardImg variant="top" src={jil} />
                     <div className="icons">
-                    <NavLink id="LogoWebsite" target="_blank" href="http://journeys.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"/></NavLink>
+                    <NavLink id="LogoWebsite" target="_blank" href="http://journeys.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
                     </div>
                   </div>  
                 <CardBody>
@@ -110,7 +110,7 @@ export default function Portfolio() {
                 <div className="divImg"> 
                   <CardImg variant="top" src={guidance} />
                       <div className="icons">
-                      <NavLink id="LogoWebsite" target="_blank" href="http://guidance.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"/></NavLink>
+                      <NavLink id="LogoWebsite" target="_blank" href="http://guidance.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
                     </div>  
                 </div>
                 <CardBody>
