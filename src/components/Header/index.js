@@ -5,10 +5,12 @@ import {
     NavLink,
     NavbarBrand,
   } from 'reactstrap';
-  import logo from './img/logo.png'; 
-  import './header.css';
-  import { useTranslation } from 'react-i18next';
-import i18n from '../../i18n';
+import logo from './img/logo.png'; 
+import iconPT from './img/pt.png'; 
+import iconEn from './img/en.png'; 
+import './header.css';
+import { useTranslation } from 'react-i18next';
+import i18n from 'i18next';
 
 function Header() {
     const {t, i18n} = useTranslation();
@@ -18,27 +20,27 @@ function Header() {
     }
     return (
         <div className="menu">
-            <Nav className="navbar navbar-expand-lg ">
+            <Nav className="navbar navbar-expand-lg menuLanguage">
             <NavItem>
-                <NavLink onClick={()=>handleClick('en')}>EN</NavLink>
+                <NavLink onClick={()=>handleClick('en')}><img className="iconEn" src={iconEn} alt="iconEn" /></NavLink>
             </NavItem>
             <NavItem>
-                <NavLink onClick={()=>handleClick('pt')}>PT</NavLink>
+                <NavLink onClick={()=>handleClick('pt')}><img className="iconPT" src={iconPT} alt="iconPT" /></NavLink>
             </NavItem>
             </Nav>
-            <Nav sticky="top" className="navbar navbar-expand-lg ">
+            <Nav sticky="top" className="navbar navbar-expand-lg navbarMenu">
             <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo" /></NavbarBrand>
             </Nav>
             <hr/>
-            <Nav className="navbar navbar-expand-lg ">
+            <Nav className="navbar navbar-expand-lg navbarMenu ">
             <NavItem>
-                <NavLink href="#sobre">{t('About.1')}</NavLink>
+                <NavLink href="#about">{t('About.1')}</NavLink>
             </NavItem>
             <NavItem>
                 <NavLink href="#portifolio">{t('Portfolio.1')}</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#contato">{t('Contact.1')}</NavLink>
+                <NavLink href="#contact">{t('Contact.1')}</NavLink>
             </NavItem>
             </Nav>
             <hr/>

@@ -5,27 +5,26 @@ import Portfolio from '../../components/Portfolio/portfolio.js';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Hr from '../../components/Hr/hr';
+import { useTranslation } from 'react-i18next';
+
 
 function App() {
+  const {t, i18n} = useTranslation();
 
   return (
     
     <div>
       <Header/>
       <div id="about">
-        <h2>Sobre</h2>
+        <h2>{t('About.1')}</h2>
         <Hr/>
-        <p>Olá. Me chamo Andressa Henriques, sou Software Engineer | Full Stack Developer Junior | 
-          HTML, CSS, JS, JAVA, REACT.
-        <br/><br/>Minha paixão é programar, encontro felicidade em ser minha melhor versão hoje do que fui ontem.
-        Meu sonho é ter contato com extraterrestres; de preferência uma nave amiga vindo 
-          para a Terra. Eu adoraria viver junto a eles.
-          </p>
+        <p>{t('AboutMe.1')}</p>
+        <p> {t('AboutMeTwo.1')}</p>
         
       </div>
       <Portfolio/>
-      <div className="contact" id="contato"> 
-      <h2>Contato</h2>
+      <div className="contact" id="contact"> 
+      <h2>{t('Contact.1')}</h2>
       <Hr/>
       <p>andressalhenriques@gmail.com</p>
       </div>

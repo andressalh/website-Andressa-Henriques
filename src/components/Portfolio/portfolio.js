@@ -15,16 +15,16 @@ import {
   } from 'reactstrap';
 import Hr from '../Hr/hr';
 import pokedex from './img/pokedex.png'; 
-
+import { useTranslation } from 'react-i18next';
 
 export default function Portfolio() {
-
+  const {t, i18n} = useTranslation();
 
     return (
       
       <div className="portifolio" id="portifolio"> 
       
-        <h2>Últimos Projetos</h2> 
+        <h2>{t('Work.1')}</h2> 
         <Hr/>
         <div className="row"> 
 
@@ -39,7 +39,7 @@ export default function Portfolio() {
               <CardBody className="cardBodyPortfolio">
                 <CardTitle>Pokedex</CardTitle>
                 <CardText>
-                  Design / Desenvolvimento / react / api
+                  Design / {t('Development.1')} / react / api
                 </CardText>
               </CardBody>
             </Card>
@@ -53,9 +53,9 @@ export default function Portfolio() {
                 </div>          
               </div>
               <CardBody className="cardBodyPortfolio">
-                <CardTitle>Site baseado no Airbnb</CardTitle>
+                <CardTitle>{t('Airbnb.1')}</CardTitle>
                 <CardText>
-                  Desenvolvimento / html / css / js / api
+                {t('Development.1')} / html / css / js / api
                 </CardText>
               </CardBody>
             </Card>
@@ -71,7 +71,7 @@ export default function Portfolio() {
               <CardBody>
                 <CardTitle>Show Me The Leads</CardTitle>
                 <CardText>
-                  Desenvolvimento / html / css / js
+                {t('Development.1')} / html / css / js
                 </CardText>
               </CardBody>
               </Card>
@@ -86,7 +86,7 @@ export default function Portfolio() {
                 <CardBody>
                   <CardTitle>Quartz organics</CardTitle>
                   <CardText>
-                    Desenvolvimento / WordPress / Divi / CSS
+                  {t('Development.1')} / WordPress / Divi / CSS
                   </CardText>
                 </CardBody>
               </Card>
@@ -101,7 +101,7 @@ export default function Portfolio() {
                 <CardBody>
                   <CardTitle>Journeys in love</CardTitle>
                   <CardText>
-                    Desenvolvimento / WordPress / Divi / CSS
+                  {t('Development.1')} / WordPress / Divi / CSS
                   </CardText>
                 </CardBody>
               </Card> 
@@ -116,12 +116,12 @@ export default function Portfolio() {
                 <CardBody>
                   <CardTitle>Guidance</CardTitle>
                   <CardText>
-                    Desenvolvimento / WordPress / Divi / CSS
+                  {t('Development.1')} / WordPress / Divi / CSS
                   </CardText>
                 </CardBody>
               </Card>
           </div>
-        </div>
+      </div>
     );
    
   }

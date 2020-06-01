@@ -10,23 +10,12 @@
     border: none;
     text-align: center;
     width: 18rem;  
-    /* background: #fff!important;
-    opacity: 1;*/
 }
 
-
-
-/*.card a:hover {
-    cursor: crosshair;
-    cursor: url(./img/more.png) 40 40, crosshair;
-}*/
-
-/*.card:hover {
-    opacity: 0.5;
-}*/
-
-
-
+.row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
 .card:last-child {
     margin-right: 0;
     
@@ -72,4 +61,10 @@ p.card-text {
 
 .cardOnHover:hover .icons{
     display: flex;
+}
+
+/*SLIDER*/
+
+.awssld__content {
+    background-color: #fff!important;
 }

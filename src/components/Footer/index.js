@@ -7,11 +7,14 @@ import {
   import LogoGithub from 'react-ionicons/lib/LogoGithub';
   import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
 
+
 function Footer() {
+
+  
 
     return (
         <footer>
-        <Nav className="navbar navbar-expand-lg">
+        <Nav className="navbar navbar-expand-lg navbarMenu">
           <NavItem>
             <NavLink target="_blank" href="https://github.com/andressalh"><LogoGithub name="logo-github"></LogoGithub></NavLink>
           </NavItem>

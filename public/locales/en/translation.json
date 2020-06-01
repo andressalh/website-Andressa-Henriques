@@ -7,5 +7,20 @@
     },
     "Contact": {
         "1": "Contact"
+    },
+    "AboutMe": {
+        "1": "Hi. My name is Andressa, I'm Software Enginieer | Full Stack Developer Junior | HTML, CSS, JS, JAVA, REACT. "
+    },
+    "AboutMeTwo": {
+        "1": "My passion is coding, and I find happiness in being a better me today than the me yesterday. My dream is for extraterrestrial contact; preferrably a friendly ship coming to Earth. I'd to live with then."
+    },
+    "Work": {
+        "1": "Last Projects"
+    },
+    "Airbnb": {
+        "1": "Airbnb inspiration"
+    },
+    "Development": {
+        "1": "Development"
     }
 }

@@ -1,10 +1,33 @@
-/*Menu*/
-.nav {
-    justify-content: center!important;
+/*languages*/
+
+.menuLanguage {
+    justify-content: flex-end!important;
+    padding: 0!important;
 }
+
+.menuLanguage img {
+    width: 54px;
+}
+.menuLanguage .nav-link {
+    padding: 0;
+    padding-top: 0.7rem;
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+/*Menu*/
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
 .navbar-brand {
     display: flex;
     justify-content: center;
+}
+.navbarMenu {
+    padding: 0;
+    justify-content: center!important;
 }
 .menu hr {
   width: 1000px;
