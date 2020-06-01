@@ -7,9 +7,9 @@
 }
 
 .card {
-    border: none;
+    border: none!important;
     text-align: center;
-    width: 18rem;  
+    width: 23rem;
 }
 
 .row {

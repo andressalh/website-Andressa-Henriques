@@ -18,7 +18,10 @@ p{
     
     #about p {
         max-width: none;
-        padding: 0 3%;
+        padding: 0 1rem;
+    }
+    .card {
+        width: auto;
     }
 }
 
