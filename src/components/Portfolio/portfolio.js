@@ -13,7 +13,6 @@ import {
     Card,
     NavLink,
   } from 'reactstrap';
-import Hr from '../Hr/hr';
 import pokedex from './img/pokedex.png'; 
 import { useTranslation } from 'react-i18next';
 
@@ -24,8 +23,8 @@ export default function Portfolio() {
       
       <div className="portifolio" id="portifolio"> 
       
-        <h2>{t('Work.1')}</h2> 
-        <Hr/>
+        <h2 className="class-before">{t('Work.1')}</h2> 
+        
         <div className="row"> 
 
         <Card className="cardOnHover" >
@@ -42,7 +41,7 @@ export default function Portfolio() {
                   Design / {t('Development.1')} / react / api
                 </CardText>
               </CardBody>
-            </Card>
+        </Card>
 
             <Card className="cardOnHover" >
               <div className="divImg">
@@ -76,6 +75,10 @@ export default function Portfolio() {
               </CardBody>
               </Card>
   
+          </div>
+
+          <div className="row"> 
+
             <Card className="cardOnHover">
               <div className="divImg">
                 <CardImg variant="top" src={quartzo} />
@@ -95,9 +98,9 @@ export default function Portfolio() {
                 <div className="divImg">  
                   <CardImg variant="top" src={jil} />
                     <div className="icons">
-                    <NavLink id="LogoWebsite" target="_blank" href="http://journeys.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
+                      <NavLink id="LogoWebsite" target="_blank" href="http://journeys.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
                     </div>
-                  </div>  
+                </div>  
                 <CardBody>
                   <CardTitle>Journeys in love</CardTitle>
                   <CardText>
@@ -109,9 +112,9 @@ export default function Portfolio() {
               <Card className="cardOnHover">
                 <div className="divImg"> 
                   <CardImg variant="top" src={guidance} />
-                      <div className="icons">
-                      <NavLink id="LogoWebsite" target="_blank" href="http://guidance.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                    </div>  
+                  <div className="icons">
+                    <NavLink id="LogoWebsite" target="_blank" href="http://guidance.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
+                  </div>  
                 </div>
                 <CardBody>
                   <CardTitle>Guidance</CardTitle>

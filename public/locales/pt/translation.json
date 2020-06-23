@@ -15,7 +15,7 @@
         "1": "Minha paixão é programar, encontro felicidade em ser minha melhor versão hoje do que fui ontem. Meu sonho é ter contato com extraterrestres; de preferência uma nave amiga vindo para a Terra. Eu adoraria viver junto a eles."
     },
     "Work": {
-        "1": "Últimos Projetos"
+        "1": "Meus Projetos"
     },
     "Airbnb": {
         "1": "Site baseado no Airbnb"
@@ -23,5 +23,12 @@
     ,
     "Development": {
         "1": "Desenvolvimento"
+    },
+    "Project":{
+        "1": "Você tem um projeto em mente? Vamos conversar. Se você tem um projeto específico em mente, gostaria que eu o ajudasse, ou deseja apenas conselhos e comentários sobre qualquer coisa, basta perguntar."
+    },
+    "ProjectTitle":{
+        "1": "Você tem um projeto em mente? Vamos conversar."
     }
+
 }

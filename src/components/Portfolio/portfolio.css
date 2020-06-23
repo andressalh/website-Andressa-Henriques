@@ -5,6 +5,9 @@
     width: 100%;
     padding-top: 2%;
 }
+#portifolio {
+    padding: 0 10%;
+}
 
 .card {
     border: none!important;

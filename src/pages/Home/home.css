@@ -4,15 +4,45 @@ body{
     font-family: 'Courier Prime', monospace;
 }
 
+.class-before h2 {
+    line-height: 1em!important;
+    font-weight: 800!important;
+    font-size: 1rem!important;
+    font-family: "MarkOT-Bold",sans-serif;
+    letter-spacing: -0.05em;
+    word-break: normal;
+}
+.class-before:before {
+    content: "";
+    display: block;
+    width: 20px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 2vw;
+}
 p{
     text-align: center;
 }
 
+#about {
+    padding: 10vw 10%;
+    display: flex;
+    justify-content: space-between;
+}
 #about p {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    text-align: left;
 }
+
+.div-about:before {
+    content: "";
+    display: block;
+    width: 20px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 2vw;
+}
+
 
 @media all and (max-width: 908px) { 
     

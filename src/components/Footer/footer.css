@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+.contact-text h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+footer {
+    padding: 7rem 0 0 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-text p {
+    color: #272727;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.125rem;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+.contact-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-social p {
+    font-size: 1.125rem;
+    color: #272727;
+    font-weight: 500;
+    text-decoration: inherit;
+    border-bottom: 2px solid #000;
+    margin: 0;
+}
+.contact-social p:hover {
+    border-bottom-color: #d4af37;
+}
+.copyright h5 {
+    color: #a5a5a5;
+    font-weight: 500;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}

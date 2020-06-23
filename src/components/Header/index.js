@@ -12,6 +12,19 @@ import './header.css';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 
+
+/*<Nav className="navbar navbar-expand-lg navbarMenu ">
+            <NavItem>
+                <NavLink href="#about">{t('About.1')}</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#portifolio">{t('Portfolio.1')}</NavLink>
+            </NavItem>
+            <NavItem>
+                <NavLink href="#contact">{t('Contact.1')}</NavLink>
+            </NavItem>
+            </Nav>
+            <hr/>*/
 function Header() {
     const {t, i18n} = useTranslation();
 
@@ -29,21 +42,9 @@ function Header() {
             </NavItem>
             </Nav>
             <Nav sticky="top" className="navbar navbar-expand-lg navbarMenu">
-            <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo" /></NavbarBrand>
+                <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo" /></NavbarBrand>
             </Nav>
-            <hr/>
-            <Nav className="navbar navbar-expand-lg navbarMenu ">
-            <NavItem>
-                <NavLink href="#about">{t('About.1')}</NavLink>
-            </NavItem>
-            <NavItem>
-                <NavLink href="#portifolio">{t('Portfolio.1')}</NavLink>
-            </NavItem>
-            <NavItem>
-                <NavLink href="#contact">{t('Contact.1')}</NavLink>
-            </NavItem>
-            </Nav>
-            <hr/>
+            
         </div>
     );
   }

@@ -6,7 +6,10 @@
 }
 
 .menuLanguage img {
-    width: 54px;
+    width: 2rem;
+}
+.navbarMenu {
+    display: block;
 }
 .menuLanguage .nav-link {
     padding: 0;

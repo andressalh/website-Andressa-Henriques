@@ -4,7 +4,6 @@ import './home.css';
 import Portfolio from '../../components/Portfolio/portfolio.js';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Hr from '../../components/Hr/hr';
 import { useTranslation } from 'react-i18next';
 
 
@@ -16,18 +15,16 @@ function App() {
     <div>
       <Header/>
       <div id="about">
-        <h2>{t('About.1')}</h2>
-        <Hr/>
-        <p>{t('AboutMe.1')}</p>
-        <p> {t('AboutMeTwo.1')}</p>
+        <h2 className="class-before">{t('About.1')}</h2>
+        
+        <div className="div-about">
+          <p>{t('AboutMe.1')}</p>
+          <p> {t('AboutMeTwo.1')}</p>
+        </div>
+        
         
       </div>
       <Portfolio/>
-      <div className="contact" id="contact"> 
-      <h2>{t('Contact.1')}</h2>
-      <Hr/>
-      <p>andressalhenriques@gmail.com</p>
-      </div>
       <Footer/>
     </div>
     );
