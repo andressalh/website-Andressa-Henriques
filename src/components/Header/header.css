@@ -28,10 +28,7 @@ a.navbar-brand {
     display: flex;
     justify-content: center;
 }
-.navbarMenu {
-    padding: 0;
-    justify-content: center!important;
-}
+
 .menu hr {
   width: 1000px;
 }

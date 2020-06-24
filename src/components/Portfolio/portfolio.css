@@ -1,24 +1,22 @@
 /*SECTION PORTFOLIO*/
 .row {
-    margin: 0 auto;
     justify-content: center;
     width: 100%;
     padding-top: 2%;
 }
+
 #portifolio {
     padding: 0 10%;
+   
 }
 
 .card {
     border: none!important;
     text-align: center;
-    width: 23rem;
+    width: 23vw;
+    margin-right: 1rem;
 }
 
-.row {
-    margin-right: 0!important;
-    margin-left: 0!important;
-}
 .card:last-child {
     margin-right: 0;
     
@@ -70,4 +68,22 @@ p.card-text {
 
 .awssld__content {
     background-color: #fff!important;
+}
+
+
+@media all and (max-width: 750px) { 
+    
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        display: grid;
+    }
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+    footer {
+        padding: 0 10%;
+        margin-top: 3rem;
+    }
 }
