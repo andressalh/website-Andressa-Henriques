@@ -15,6 +15,8 @@ import {
   } from 'reactstrap';
 import pokedex from './img/pokedex.png'; 
 import { useTranslation } from 'react-i18next';
+import {Link} from 'react-router-dom';
+
 
 export default function Portfolio() {
   const {t, i18n} = useTranslation();
@@ -42,13 +44,11 @@ export default function Portfolio() {
               </CardBody>
         </Card>
 
+        <NavLink target="_blank"  href="http://pokedex.andressahenriques.com/" rel="noopener noreferrer">
         <Card className="cardOnHover" >
               <div className="divImg">
                 <CardImg variant="top" src={pokedex} />
-                  <div className="icons">
-                  <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/pokedex"><img src="https://img.icons8.com/clouds/100/000000/github.png" alt="iconGit"/></NavLink>
-                  <NavLink id="LogoWebsite" target="_blank" href="http://pokedex.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png" alt="iconWebSite" /></NavLink>
-                </div>          
+                           
               </div>
               <CardBody className="cardBodyPortfolio">
                 <CardTitle>Pokedex</CardTitle>
@@ -57,7 +57,7 @@ export default function Portfolio() {
                 </CardText>
               </CardBody>
         </Card>
-
+        </NavLink>
             <Card className="cardOnHover" >
               <div className="divImg">
                 <CardImg variant="top" src={airbnb} />
