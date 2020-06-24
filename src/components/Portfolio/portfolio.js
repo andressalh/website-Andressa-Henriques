@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import airbnb from './img/airbnb.png'; 
-import leads from './img/show-me-the-leads.png'; 
+import portstephenscleaning from './img/portstephenscleaning.png'; 
 import jil from './img/jil.png'; 
 import quartzo from './img/quartzo.png'; 
 import guidance from './img/guidance.png';
@@ -26,6 +26,21 @@ export default function Portfolio() {
         <h2 className="class-before">{t('Work.1')}</h2> 
         
         <div className="row"> 
+
+        <Card className="cardOnHover">
+              <div className="divImg">
+                <CardImg variant="top" src={portstephenscleaning} />
+                    <div className="icons">
+                    <NavLink id="LogoWebsite" target="_blank" href="http://portstephenscleaning.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
+                  </div>  
+              </div>
+              <CardBody>
+                <CardTitle>Port Stephens Cleaning</CardTitle>
+                <CardText>
+                {t('Development.1')} / react / javascrit
+                </CardText>
+              </CardBody>
+        </Card>
 
         <Card className="cardOnHover" >
               <div className="divImg">
@@ -59,21 +74,7 @@ export default function Portfolio() {
               </CardBody>
             </Card>
   
-            <Card className="cardOnHover">
-              <div className="divImg">
-                <CardImg variant="top" src={leads} />
-                    <div className="icons">
-                    <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/fuscao-preto"><img src="https://img.icons8.com/clouds/100/000000/github.png" alt="iconGit"/></NavLink>
-                    <NavLink id="LogoWebsite" target="_blank" href="http://oneline.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                  </div>  
-              </div>
-              <CardBody>
-                <CardTitle>Show Me The Leads</CardTitle>
-                <CardText>
-                {t('Development.1')} / html / css / js
-                </CardText>
-              </CardBody>
-              </Card>
+            
   
           </div>
 
