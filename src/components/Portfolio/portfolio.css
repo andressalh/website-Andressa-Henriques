@@ -101,14 +101,16 @@ p.card-text {
         /* padding: 0; */
         margin: 0;
     }
-    h2.class-before {
-        padding: .5rem 10%;
+
+    .portifolio h2.class-before {
+        padding: 0 10%;
     }
     #portifolio {
         padding: 0;
     }
-    .nav-link {
-        padding: 0;
+
+    #portifolio .nav-link {
+        padding: 0!important;
     }
 }
 

@@ -8,9 +8,7 @@
 .menuLanguage img {
     width: 2rem;
 }
-.navbarMenu {
-    display: block;
-}
+
 .menuLanguage .nav-link {
     padding: 0;
     padding-top: 0.7rem;
@@ -26,7 +24,6 @@ a.navbar-brand {
 
 .navbar-brand {
     display: flex;
-    justify-content: center;
 }
 
 .menu hr {

@@ -29,7 +29,7 @@ export default function Portfolio() {
         
         <div className="row"> 
 
-        <NavLink target="_blank"  href="https://portstephenscleaningservices.com.au/" rel="noopener noreferrer">
+        <NavLink target="_blank"  href="http://portstephenscleaningservices.com.au/" rel="noopener noreferrer">
           <Card className="cardOnHover">
               <div className="divImg">
                 <CardImg variant="top" src={portstephenscleaning} />

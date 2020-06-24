@@ -13,6 +13,7 @@ body{
     word-break: normal;
 }
 
+
 .class-before:before {
     content: "";
     display: block;
@@ -67,6 +68,9 @@ p{
     .card {
         width: auto;
     }
+    h2.class-before {
+        padding: 0;
+    }
 }
 
 @media all and (max-width: 500px) { 
@@ -78,4 +82,8 @@ p{
         flex-direction: column;
         padding-top: 2rem;
     }
+    .div-about {
+        padding-top: 3rem;
+    }
+    
 }
