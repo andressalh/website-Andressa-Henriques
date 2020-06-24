@@ -29,42 +29,39 @@ export default function Portfolio() {
         
         <div className="row"> 
 
-        <Card className="cardOnHover">
+        <NavLink target="_blank"  href="https://portstephenscleaningservices.com.au/" rel="noopener noreferrer">
+          <Card className="cardOnHover">
               <div className="divImg">
                 <CardImg variant="top" src={portstephenscleaning} />
-                    <div className="icons">
-                    <NavLink id="LogoWebsite" target="_blank" href="http://portstephenscleaning.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                  </div>  
               </div>
               <CardBody>
                 <CardTitle>Port Stephens Cleaning</CardTitle>
                 <CardText>
-                {t('Development.1')} / react / javascrit
+                  Design / {t('Development.1')} / react / javascrit
                 </CardText>
               </CardBody>
-        </Card>
+          </Card>
+        </NavLink>
 
         <NavLink target="_blank"  href="http://pokedex.andressahenriques.com/" rel="noopener noreferrer">
-        <Card className="cardOnHover" >
-              <div className="divImg">
-                <CardImg variant="top" src={pokedex} />
-                           
-              </div>
-              <CardBody className="cardBodyPortfolio">
-                <CardTitle>Pokedex</CardTitle>
-                <CardText>
-                  Design / {t('Development.1')} / react / api
-                </CardText>
-              </CardBody>
-        </Card>
+          <Card className="cardOnHover" >
+                <div className="divImg">
+                  <CardImg variant="top" src={pokedex} />
+                            
+                </div>
+                <CardBody className="cardBodyPortfolio">
+                  <CardTitle>Pokedex</CardTitle>
+                  <CardText>
+                    Design / {t('Development.1')} / react / api
+                  </CardText>
+                </CardBody>
+          </Card>
         </NavLink>
+
+        <NavLink target="_blank"  href="http://airbnbcopy.andressahenriques.com/" rel="noopener noreferrer">
             <Card className="cardOnHover" >
               <div className="divImg">
-                <CardImg variant="top" src={airbnb} />
-                  <div className="icons">
-                  <NavLink id="gitIcon" target="_blank" href="https://github.com/andressalh/airbnb-GamaAcademy"><img src="https://img.icons8.com/clouds/100/000000/github.png" alt="iconGit"/></NavLink>
-                  <NavLink id="LogoWebsite" target="_blank" href="http://airbnbcopy.andressahenriques.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                </div>          
+                <CardImg variant="top" src={airbnb} />       
               </div>
               <CardBody className="cardBodyPortfolio">
                 <CardTitle>{t('Airbnb.1')}</CardTitle>
@@ -73,34 +70,31 @@ export default function Portfolio() {
                 </CardText>
               </CardBody>
             </Card>
-  
+            </NavLink>
             
   
           </div>
 
           <div className="row"> 
 
-            <Card className="cardOnHover">
-              <div className="divImg">
-                <CardImg variant="top" src={quartzo} />
-                    <div className="icons">
-                    <NavLink id="LogoWebsite" target="_blank" href="https://www.quartzorganics.com/about/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                  </div>  
-              </div>
-                <CardBody>
-                  <CardTitle>Quartz organics</CardTitle>
-                  <CardText>
-                  {t('Development.1')} / WordPress / Divi / CSS
-                  </CardText>
-                </CardBody>
+            <NavLink target="_blank"  href="https://www.quartzorganics.com" rel="noopener noreferrer">
+              <Card className="cardOnHover">
+                <div className="divImg">
+                  <CardImg variant="top" src={quartzo} /> 
+                </div>
+                  <CardBody>
+                    <CardTitle>Quartz organics</CardTitle>
+                    <CardText>
+                    {t('Development.1')} / WordPress / Divi / CSS
+                    </CardText>
+                  </CardBody>
               </Card>
+            </NavLink>
   
+            <NavLink target="_blank"  href="http://journeys.wildsidedev.com/" rel="noopener noreferrer">
               <Card className="cardOnHover">
                 <div className="divImg">  
                   <CardImg variant="top" src={jil} />
-                    <div className="icons">
-                      <NavLink id="LogoWebsite" target="_blank" href="http://journeys.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                    </div>
                 </div>  
                 <CardBody>
                   <CardTitle>Journeys in love</CardTitle>
@@ -109,13 +103,12 @@ export default function Portfolio() {
                   </CardText>
                 </CardBody>
               </Card> 
+            </NavLink>
   
+            <NavLink target="_blank"  href="http://guidance.wildsidedev.com/" rel="noopener noreferrer">
               <Card className="cardOnHover">
                 <div className="divImg"> 
                   <CardImg variant="top" src={guidance} />
-                  <div className="icons">
-                    <NavLink id="LogoWebsite" target="_blank" href="http://guidance.wildsidedev.com/"><img src="https://img.icons8.com/clouds/100/000000/domain.png"  alt="iconWebSite"/></NavLink>
-                  </div>  
                 </div>
                 <CardBody>
                   <CardTitle>Guidance</CardTitle>
@@ -124,6 +117,7 @@ export default function Portfolio() {
                   </CardText>
                 </CardBody>
               </Card>
+              </NavLink>
           </div>
       </div>
     );
