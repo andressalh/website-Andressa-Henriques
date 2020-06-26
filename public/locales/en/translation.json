@@ -8,12 +8,16 @@
     "Contact": {
         "1": "Contact"
     },
+    "name": {
+        "1": "Hey, I'm Andressa."
+    },
     "AboutMe": {
-        "1": "Hi. My name is Andressa, I'm Software Enginieer | Full Stack Developer Junior | HTML, CSS, JS, JAVA, REACT. "
+        "1": "I'm Software Enginieer | Design and Web Developer."
     },
     "AboutMeTwo": {
-        "1": "My passion is coding, and I find happiness in being a better me today than the me yesterday. My dream is for extraterrestrial contact; preferrably a friendly ship coming to Earth. I'd to live with then."
+        "1": "My passion is coding, and I find happiness in being a better me today than the me yesterday. "
     },
+
     "Work": {
         "1": "My Projects"
     },

@@ -1,18 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 
 body{
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffc533!important;
 }
+
+.div-body {
+    margin: 1rem;
+}
+
+/*IMAGE */
+.image-header {
+    background-image: url("../../assets/australia.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*ABOUT*/
+#about .img-about, .div-about {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+/*social icon after iamge*/
+
+.socialicons img {
+    width: 25px;
+}
+.socialicons.nav {
+    justify-content: center;
+}
+.socialicons .nav-item a {
+    padding: 0.5rem;
+}
+
 
 .class-before h2 {
     line-height: 1em!important;
     font-weight: 800!important;
     font-size: 1rem!important;
-    font-family: "MarkOT-Bold",sans-serif;
     letter-spacing: -0.05em;
     word-break: normal;
 }
-
 
 .class-before:before {
     content: "";
@@ -21,31 +54,53 @@ body{
     border-top: 1px solid #707070;
     margin-bottom: 2vw;
 }
-p{
-    text-align: center;
-}
+
+
 
 #about {
     padding: 6vw 10%;
     display: flex;
-    justify-content: space-between;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-family: 'Reenie Beanie', cursive;
+    margin: .67em 0;
+    color: #ffc533;
+    font-size: 2.5rem;
 }
 #about p {
-    width: 100%;
-    max-width: 800px;
     margin: 0 auto;
     text-align: left;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: .05em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: rgba(29,29,29,.7);
+}
+.div-about {
+    margin-left: -5rem;
+    background-color: #fff;
+    height: auto;
+    width: 90%;
+    padding: 10%;
+}
+.div-about h5 {
+    color: #1d1d1d;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    text-transform: none;
 }
 
-.div-about:before {
-    content: "";
-    display: block;
-    width: 20px;
-    border-top: 1px solid rgba(0,0,0,.1);
-    margin-bottom: 2vw;
+/* div yellow */
+.div-yellow {
+    height: 200px;
 }
-
-
 @media all and (max-width: 1170px) { 
     
     #about {
@@ -82,8 +137,6 @@ p{
         flex-direction: column;
         padding-top: 2rem;
     }
-    .div-about {
-        padding-top: 3rem;
-    }
+
     
 }

@@ -7,7 +7,7 @@
 
 #portifolio {
     padding: 0 10%;
-   
+    background-color: #fff3f1;
 }
 
 .card {
@@ -71,11 +71,6 @@ p.card-text {
     display: flex;
 }
 
-/*SLIDER*/
-
-.awssld__content {
-    background-color: #fff!important;
-}
 
 
 @media all and (max-width: 750px) { 

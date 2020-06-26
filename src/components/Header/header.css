@@ -1,40 +1,30 @@
-/*languages*/
 
-.menuLanguage {
-    justify-content: flex-end!important;
-    padding: 0!important;
-}
 
-.menuLanguage img {
-    width: 2rem;
-}
-
-.menuLanguage .nav-link {
-    padding: 0;
-    padding-top: 0.7rem;
-    margin-right: 0.7rem;
-    cursor: pointer;
-}
 
 /*Menu*/
 a.navbar-brand {
     padding: 0;
     margin: 0;
 }
+a.navbar-brand img {
+    padding-left: 5rem;
+}
+.menu {
+    background-color: #fff;
+}
 
 .navbar-brand {
     display: flex;
 }
 
-.menu hr {
-  width: 1000px;
+ul.navbar.navbar-expand-lg.menuLanguage.nav {
+    margin-right: 0;
+    margin-left: auto;
+}
+a.nav-link {
+    cursor: pointer;
 }
 
-/*submeu*/
-.nav-link {
-    color: #000!important;
-    text-transform: uppercase;
-}
 
 @media all and (max-width: 850px) { 
     

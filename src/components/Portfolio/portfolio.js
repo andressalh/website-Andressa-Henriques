@@ -27,53 +27,54 @@ export default function Portfolio() {
       
         <h2 className="class-before">{t('Work.1')}</h2> 
         
+        
         <div className="row"> 
 
-        <NavLink target="_blank"  href="http://portstephenscleaningservices.com.au/" rel="noopener noreferrer">
-          <Card className="cardOnHover">
-              <div className="divImg">
-                <CardImg variant="top" src={portstephenscleaning} />
-              </div>
-              <CardBody>
-                <CardTitle>Port Stephens Cleaning</CardTitle>
-                <CardText>
-                  Design / {t('Development.1')} / react / javascrit
-                </CardText>
-              </CardBody>
-          </Card>
-        </NavLink>
-
-        <NavLink target="_blank"  href="http://pokedex.andressahenriques.com/" rel="noopener noreferrer">
-          <Card className="cardOnHover" >
+          <NavLink target="_blank"  href="http://portstephenscleaningservices.com.au/" rel="noopener noreferrer">
+            <Card className="cardOnHover">
                 <div className="divImg">
-                  <CardImg variant="top" src={pokedex} />
-                            
+                  <CardImg variant="top" src={portstephenscleaning} />
                 </div>
-                <CardBody className="cardBodyPortfolio">
-                  <CardTitle>Pokedex</CardTitle>
+                <CardBody>
+                  <CardTitle>Port Stephens Cleaning</CardTitle>
                   <CardText>
-                    Design / {t('Development.1')} / react / api
+                    Design / {t('Development.1')} / react / javascrit
                   </CardText>
                 </CardBody>
-          </Card>
-        </NavLink>
-
-        <NavLink target="_blank"  href="http://airbnbcopy.andressahenriques.com/" rel="noopener noreferrer">
-            <Card className="cardOnHover" >
-              <div className="divImg">
-                <CardImg variant="top" src={airbnb} />       
-              </div>
-              <CardBody className="cardBodyPortfolio">
-                <CardTitle>{t('Airbnb.1')}</CardTitle>
-                <CardText>
-                {t('Development.1')} / html / css / js / api
-                </CardText>
-              </CardBody>
             </Card>
-            </NavLink>
+          </NavLink>
+
+          <NavLink target="_blank"  href="http://pokedex.andressahenriques.com/" rel="noopener noreferrer">
+            <Card className="cardOnHover" >
+                  <div className="divImg">
+                    <CardImg variant="top" src={pokedex} />
+                              
+                  </div>
+                  <CardBody className="cardBodyPortfolio">
+                    <CardTitle>Pokedex</CardTitle>
+                    <CardText>
+                      Design / {t('Development.1')} / react / api
+                    </CardText>
+                  </CardBody>
+            </Card>
+          </NavLink>
+
+          <NavLink target="_blank"  href="http://airbnbcopy.andressahenriques.com/" rel="noopener noreferrer">
+              <Card className="cardOnHover" >
+                <div className="divImg">
+                  <CardImg variant="top" src={airbnb} />       
+                </div>
+                <CardBody className="cardBodyPortfolio">
+                  <CardTitle>{t('Airbnb.1')}</CardTitle>
+                  <CardText>
+                  {t('Development.1')} / html / css / js / api
+                  </CardText>
+                </CardBody>
+              </Card>
+          </NavLink>
             
   
-          </div>
+        </div>
 
           <div className="row"> 
 

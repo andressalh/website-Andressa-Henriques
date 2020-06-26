@@ -7,6 +7,8 @@
 footer {
     padding: 7rem 0 0 2rem;
     font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    margin-top: 5rem;
 }
 .contact-text p {
     color: #272727;
