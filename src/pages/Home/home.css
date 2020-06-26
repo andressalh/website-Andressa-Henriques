@@ -157,6 +157,9 @@ body{
     .div-yellow {
         height: 100px;
     }
+    .img-about img {
+        margin-right: 0;
+    }
 }
 
 @media all and (max-width: 500px) { 
