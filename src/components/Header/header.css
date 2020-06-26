@@ -1,13 +1,11 @@
 
-
-
 /*Menu*/
 a.navbar-brand {
     padding: 0;
     margin: 0;
 }
 a.navbar-brand img {
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 .menu {
     background-color: #fff;
@@ -32,6 +30,9 @@ a.nav-link {
     .menu hr {
         width: 450px;
       }
+    a.navbar-brand img {
+        padding-left: 0;
+    }
       
  }
 

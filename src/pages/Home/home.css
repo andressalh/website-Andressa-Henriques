@@ -55,12 +55,15 @@ body{
     margin-bottom: 2vw;
 }
 
-
-
-#about {
-    padding: 6vw 10%;
-    display: flex;
+.div-about {
     background-color: #fff;
+}
+#about {
+    display: flex;
+    width: 66.6667%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    align-items: center;
 }
 
 #about h2 {
@@ -80,18 +83,27 @@ body{
     text-transform: none;
     color: rgba(29,29,29,.7);
 }
-.div-about {
-    margin-left: -5rem;
-    background-color: #fff;
+.div-aboutMe {
     height: auto;
-    width: 90%;
-    padding: 10%;
+    z-index: 10;
 }
-.div-about h5 {
+.div-text {
+    background-color: #fff;
+    padding: 2rem;
+    margin-left: 8rem;
+    width: 90%;
+}
+
+.img-about img {
+    width: 100%;
+    margin-right: 8rem;
+}
+
+.div-aboutMe h5 {
     color: #1d1d1d;
     font-weight: 300;
     font-style: normal;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 0em;
     line-height: 1.4em;
     text-transform: none;
@@ -102,23 +114,27 @@ body{
     height: 200px;
 }
 @media all and (max-width: 1170px) { 
-    
-    #about {
-        flex-direction: column;
+    .div-text {
+        margin-left: 4rem;
     }
-    #about p {
-        max-width: none;
+    .img-about {
+        margin-right: 0rem;
     }
-    h2.class-before {
-        padding-bottom: 2rem;
-    }
+   
 }
 
 @media all and (max-width: 908px) { 
     
+    .div-text {
+        margin-left: 0;
+    }
+    #about {
+        width: 85%;
+        flex-direction: column;
+    }
+
     #about p {
         max-width: none;
-        padding: 0 1rem;
     }
     .card {
         width: auto;
@@ -126,16 +142,36 @@ body{
     h2.class-before {
         padding: 0;
     }
+    .img-about {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .div-text {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2rem;
+    }
+    #about .img-about {
+        padding: 0;
+    }
+    .div-yellow {
+        height: 100px;
+    }
 }
 
 @media all and (max-width: 500px) { 
     
-    footer {
-        padding: 2rem 10%;
-    }
+
     .contact-social {
         flex-direction: column;
         padding-top: 2rem;
+    }
+    #about {
+        width: 100%;
+    }
+    .contact-text h2 {
+
+        text-align: left;
     }
 
     

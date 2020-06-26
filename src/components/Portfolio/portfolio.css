@@ -6,7 +6,7 @@
 }
 
 #portifolio {
-    padding: 0 10%;
+    padding: 3rem 10%;
     background-color: #fff3f1;
 }
 
@@ -18,7 +18,7 @@
 }
 .card:hover{
     cursor: crosshair;
-    cursor: url(./img/more.png) 40 40, crosshair;
+    cursor: url(../../assets/more.png) 40 40, crosshair;
     background-color: #fff;
     opacity: 0.5;
 }
@@ -34,7 +34,9 @@
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 0;
+    color: #000;
 }
+
 p.card-text {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
@@ -75,6 +77,13 @@ p.card-text {
 
 @media all and (max-width: 750px) { 
     
+    #portifolio {
+        padding: 3rem 0;
+        background-color: #fff3f1;
+    }
+    a.navbar-brand img {
+        padding-left: 0;
+    }
     .row {
         flex-direction: column;
         justify-content: center;
@@ -85,23 +94,14 @@ p.card-text {
         margin-right: 0;
     }
 
-    footer {
-        padding: 1rem 10% 0 10%!important;
-        margin-top: 3rem;
-    }
-    #about p {
-        padding: 0;
-    }
+    
+
     #portifolio .row {
-        /* padding: 0; */
         margin: 0;
     }
 
     .portifolio h2.class-before {
         padding: 0 10%;
-    }
-    #portifolio {
-        padding: 0;
     }
 
     #portifolio .nav-link {

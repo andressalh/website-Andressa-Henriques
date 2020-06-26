@@ -1,10 +1,10 @@
 import React from 'react';
 import './portfolio.css';
-import airbnb from './img/airbnb.png'; 
-import portstephenscleaning from './img/portstephenscleaning.png'; 
-import jil from './img/jil.png'; 
-import quartzo from './img/quartzo.png'; 
-import guidance from './img/guidance.png';
+import airbnb from '../../assets/airbnb.png'; 
+import portstephenscleaning from '../../assets/portstephenscleaning.png'; 
+import jil from '../../assets/jil.png'; 
+import quartzo from '../../assets/quartzo.png'; 
+import guidance from '../../assets/guidance.png';
 import {
     CardImg,
     CardBody,
@@ -13,7 +13,7 @@ import {
     Card,
     NavLink,
   } from 'reactstrap';
-import pokedex from './img/pokedex.png'; 
+import pokedex from '../../assets/pokedex.png'; 
 import { useTranslation } from 'react-i18next';
 import {Link} from 'react-router-dom';
 
@@ -38,7 +38,7 @@ export default function Portfolio() {
                 <CardBody>
                   <CardTitle>Port Stephens Cleaning</CardTitle>
                   <CardText>
-                    Design / {t('Development.1')} / react / javascrit
+                    Design / {t('Development.1')} / react
                   </CardText>
                 </CardBody>
             </Card>

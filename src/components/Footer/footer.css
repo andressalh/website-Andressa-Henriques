@@ -40,3 +40,19 @@ footer {
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
+@media all and (max-width: 500px) { 
+    footer {
+        padding: 1rem 10% 0 10%!important;
+        margin-top: 3rem;
+    }
+}
+
+@media all and (max-width: 500px) { 
+    
+    footer {
+        padding: 2rem 10%;
+    }
+
+
+    
+}

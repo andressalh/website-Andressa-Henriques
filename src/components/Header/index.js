@@ -5,7 +5,7 @@ import {
     NavLink,
     NavbarBrand,
   } from 'reactstrap';
-import logo from './img/logo.png'; 
+import logo from '../../assets/logo1.png'; 
 
 import './header.css';
 import { useTranslation } from 'react-i18next';
