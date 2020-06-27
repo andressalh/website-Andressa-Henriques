@@ -5,7 +5,7 @@
     text-align: center;
 }
 footer {
-    padding: 7rem 0 0 2rem;
+    padding: 7rem 2rem 0 2rem;
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     margin-top: 5rem;
@@ -18,10 +18,14 @@ footer {
     max-width: 42rem;
     margin: 0 auto;
 }
+
 .contact-social {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: end;
+}
+.contact-social .navbar {
+    padding: 0 1rem;
 }
 .contact-social p {
     font-size: 1.125rem;
@@ -40,19 +44,41 @@ footer {
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
+
+@media all and (max-width: 600px) { 
+    .contact-social {
+        flex-direction: column;
+    }
+    .contact-social .navbar {
+        padding: 0;
+    }
+    .contact-social .navbar {
+        justify-content: flex-start;
+    }
+    .contact-social .nav-link {
+        padding: .5rem;
+    }
+    .contact-text h2 {
+        text-align: left;
+    }
+}
+
 @media all and (max-width: 500px) { 
     footer {
         padding: 1rem 10% 0 10%!important;
         margin-top: 3rem;
     }
-}
-
-@media all and (max-width: 500px) { 
     
-    footer {
-        padding: 2rem 10%;
+    .contact-social {
+        padding-top: 0;
     }
-
-
-    
+    .contact-social p {
+        font-size: 1rem;
+    }
+    .nav-item img {
+        width: 30px;
+    }
 }
+
+
+

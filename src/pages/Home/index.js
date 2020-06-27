@@ -6,8 +6,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { useTranslation } from 'react-i18next';
 import me2 from "../../assets/me2.png"
-import github from "../../assets/github.png"
-import linkedin from "../../assets/linkedin.png"
+
 
 function App() {
   const {t, i18n} = useTranslation();

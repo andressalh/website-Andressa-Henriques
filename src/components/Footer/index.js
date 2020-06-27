@@ -8,6 +8,11 @@ import {
   import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
   import { useTranslation } from 'react-i18next';
   import './footer.css';
+  import email from "../../assets/email.gif"
+  import github from "../../assets/github.png"
+  import linkedin from "../../assets/linkedin.png"
+
+
 
 function Footer() {
   const {t, i18n} = useTranslation();
@@ -21,13 +26,17 @@ function Footer() {
             
           </div>
           <div className="contact-social">
-          <p>andressalhenriques@gmail.com</p>
+            <div className="email">
+              <img src={email} alt="iconemail" />
+              <p>andressalhenriques@gmail.com</p>
+            </div>
+          
             <Nav className="navbar navbar-expand-lg navbarMenu">
               <NavItem>
-                <NavLink target="_blank" href="https://github.com/andressalh"><LogoGithub name="logo-github"></LogoGithub></NavLink>
+                <NavLink target="_blank" href="https://github.com/andressalh"><img src={github} alt="iconemail" /></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink target="_blank"  href="https://www.linkedin.com/in/andressalh/" ><LogoLinkedin name="logo-linkedin"></LogoLinkedin></NavLink>
+                <NavLink target="_blank"  href="https://www.linkedin.com/in/andressalh/" ><img src={linkedin} alt="iconemail" /></NavLink>
               </NavItem>
             </Nav>
           </div>

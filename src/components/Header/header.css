@@ -44,4 +44,10 @@ a.nav-link {
         margin-bottom: 0.5rem;
         width: 300px;
     }
+    .menu .navbar {
+        padding: .5rem 0;
+    }
+    .menu ul.navbar.navbar-expand-lg.menuLanguage.nav {
+        margin: 0;
+    }
   }
